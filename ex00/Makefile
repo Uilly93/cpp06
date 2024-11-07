@@ -1,4 +1,4 @@
-NAME 		=	ScalarConverter
+NAME 		=	Convert
 CXX 		=	clang++
 CPPFLAGS 	=	-Wall -Wextra -Werror -MMD -g3 -std=c++98
 SRC_PATH	=	src/

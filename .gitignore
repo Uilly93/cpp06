@@ -1,0 +1,6 @@
+Bureaucrat
+.obj
+*.o
+*.d
+*_shrubbery
+convert
