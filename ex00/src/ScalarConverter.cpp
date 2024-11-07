@@ -46,7 +46,7 @@ static void printchar(std::string arg) {
 	long double d = strtold(arg.c_str(), NULL);
 	if (d < std::numeric_limits<char>::min() || d > std::numeric_limits<char>::max() ||
 		std::isnan(d))
-		std::cout << ORANGE << "char = Impossible" << RESET << std::endl;
+		std::cout << ORANGE << "char = impossible" << RESET << std::endl;
 	else if ((only_digit_string(arg) && (!std::isprint(d))) || arg[0] == '-')
 		std::cout << ORANGE << "char = non displayable" << RESET << std::endl;
 	else if (only_one_char(arg))
@@ -87,12 +87,6 @@ static void printdouble(std::string arg) {
 }
 
 void ScalarConverter::convert(std::string arg) {
-	double d = std::atof(arg.c_str());
-	int i;
-	float f;
-
-	i = static_cast<int>(d);
-	f = static_cast<float>(d);
 	printchar(arg);
 	printint(arg);
 	printfloat(arg);
