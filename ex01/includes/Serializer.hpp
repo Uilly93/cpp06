@@ -1,7 +1,6 @@
 #ifndef SERIALIZER_HPP
 #define SERIALIZER_HPP
 
-#include "colors.hpp"
 #include <iostream>
 #include <stdint.h>
 

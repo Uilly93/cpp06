@@ -1,6 +1,6 @@
 #include "../includes/Serializer.hpp"
 #include "../includes/colors.hpp"
-#include <cmath>
+#include <iostream>
 #include <stdint.h>
 
 // Constructors
