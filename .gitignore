@@ -1,8 +1,6 @@
-Bureaucrat
 .obj
 *.o
 *.d
-*_shrubbery
 Convert
 Serializer
 Base
