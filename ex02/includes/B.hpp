@@ -2,8 +2,6 @@
 #define B_HPP
 
 #include "Base.hpp"
-#include "colors.hpp"
-#include <iostream>
 
 class B : public Base {};
 
